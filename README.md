@@ -20,24 +20,29 @@ If you want to contribute, please read the [contribution guidelines](CONTRIBUTIN
 
 ## Tool
 
-### Memory Acquisition
+### Windows Memory Acquisition Software
 Introduce commercial and open source tools for memory acquisition.
 
-#### Software
-- [Surge](https://www.volexity.com/products-overview/surge/) - Volexity's Surge Collect offers flexible storage options and an intuitive interface that any responder can run to eliminate the issues associated with the corrupt data samples, crashed target computers, and ultimately, unusable data that commonly results from using other tools.
 - [MAGNET RAM](https://www.magnetforensics.com/resources/magnet-ram-capture/) - MAGNET RAM Capture is a free imaging tool designed to capture the physical memory of a suspect's computer, allowing investigators to recover and analyze valuable artifacts that are often only found in memory.
 - [FTK Imager](https://www.exterro.com/ftk-imager) - FTK® Imager is a data preview and imaging tool that lets you quickly assess electronic evidence to determine if further analysis with a forensic tool such as Forensic Toolkit (FTK®) is warranted. 
 - [Winpmem](https://github.com/Velocidex/WinPmem) - WinPmem has been the default open source memory acquisition driver for windows for a long time.
 - [Ram Capturer](https://belkasoft.com/ram-capturer) - Belkasoft Live RAM Capturer is a tiny free forensic tool that allows to reliably extract the entire contents of computer's volatile memory—even if protected by an active anti-debugging or anti-dumping system.
-- [LiME](https://github.com/504ensicsLabs/LiME) - A Loadable Kernel Module (LKM) which allows for volatile memory acquisition from Linux and Linux-based devices, such as Android. 
-- [AVML](https://github.com/microsoft/avml) - AVML is an X86_64 userland volatile memory acquisition tool written in Rust, intended to be deployed as a static binary. 
-- [fmem](https://github.com/NateBrune/fmem) - This module creates /dev/fmem device, that can be used for dumping physical memory, without limits of /dev/mem (1MB/1GB, depending on distribution).
 - [FEX Memory Imager](https://getdataforensics.com/product/fex-memory-imager/) - FEX Memory Imager (FEX Memory) is a free imaging tool designed to capture the physical Random Access Memory (RAM) of a suspect's running computer. This allows investigators to recover and analyze valuable artifacts found only in memory.
-- [MacQuisition](https://www.blackbagtech.com/category/blog/macquisition/)
 - [Digital Collector](https://cellebrite.com/en/digital-collector/) - A powerful forensic imaging software solution to perform triage, live data acquisition and targeted data collection for Windows and Mac computers.
 - [varc](https://github.com/cado-security/varc) - Volatile Artifact Collector gathers a snapshot of volatile data from a system.
 
-#### Hardware
+### Linux Memory Acquisition Software
+Introduce commercial and open source tools for memory acquisition.
+- [LiME](https://github.com/504ensicsLabs/LiME) - A Loadable Kernel Module (LKM) which allows for volatile memory acquisition from Linux and Linux-based devices, such as Android. 
+- [AVML](https://github.com/microsoft/avml) - AVML is an X86_64 userland volatile memory acquisition tool written in Rust, intended to be deployed as a static binary. 
+- [fmem](https://github.com/NateBrune/fmem) - This module creates /dev/fmem device, that can be used for dumping physical memory, without limits of /dev/mem (1MB/1GB, depending on distribution).
+
+### MacOS Memory Acquisition Software
+Introduce commercial and open source tools for memory acquisition.
+- [MacQuisition](https://www.blackbagtech.com/category/blog/macquisition/)
+
+
+#### Hardware Memory Acquisition
 - [PCILeech](https://github.com/ufrisk/pcileech) - PCILeech uses PCIe hardware devices to read and write target system memory. This is achieved by using DMA over PCIe. No drivers are needed on the target system.
 
 #### Misc
